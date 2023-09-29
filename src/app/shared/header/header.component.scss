@@ -1,8 +1,27 @@
-.example-spacer {
-    flex: 1 1 auto;
-  }
-  
-.mat-toolbar {
-    background-color: #000;
-    color: white;
+.app-header {
+    display: flex;
+
+    .mat-toolbar {
+        background-color: #000;
+        color: var(--white);
+        padding: 2em 10em;
+    }
+
+    .spacer {
+        flex: 1 1 auto;
+    }
+    
+    .mat-mdc-outlined-button:not(:disabled) {
+        border-color: var(--white);
+    }
+
+    button {
+        margin: 0 .8em;
+        padding: 1.5em;
+        font-size: .8em;
+    }
 }
+
+
+
+
