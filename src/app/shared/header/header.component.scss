@@ -2,7 +2,7 @@
     display: flex;
 
     .mat-toolbar {
-        background-color: #000;
+        background-color: var(--black);
         color: var(--white);
         padding: 2em 10em;
     }

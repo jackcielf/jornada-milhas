@@ -1,0 +1,23 @@
+.card-search {
+  max-width: 320px;
+  background-color: var(--light1);
+  border-radius: 12px;
+
+  button {
+    width: 100%;
+    margin: 0 16px 48px;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      margin: 12px;
+      font-weight: 400;
+      font-size: 1.2em;
+      line-height: 2em;
+      color: var(--dark);
+      text-align: center;
+    }
+  }
+}
