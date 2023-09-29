@@ -17,6 +17,14 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { CardTestimonyComponent } from './shared/card-testimony/card-testimony.component';
+import { FormSearchComponent } from './shared/form-search/form-search.component';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatChipsModule } from '@angular/material/chips';
+import {MatDatepickerModule} from '@angular/material/datepicker'
+import { MatNativeDateModule } from '@angular/material/core';
 
 @NgModule({
   declarations: [
@@ -29,6 +37,7 @@ import { CardTestimonyComponent } from './shared/card-testimony/card-testimony.c
     HomeComponent,
     CardSearchComponent,
     CardTestimonyComponent,
+    FormSearchComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,7 +45,14 @@ import { CardTestimonyComponent } from './shared/card-testimony/card-testimony.c
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonToggleModule,
+    MatIconModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatChipsModule,
+    MatDatepickerModule,
+    MatNativeDateModule
   ],
   providers: [],
   bootstrap: [AppComponent],

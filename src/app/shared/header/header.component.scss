@@ -1,27 +1,22 @@
 .app-header {
-    display: flex;
+  display: flex;
 
-    .mat-toolbar {
-        background-color: var(--black);
-        color: var(--white);
-        padding: 2em 10em;
-    }
+  .mat-toolbar {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 1.5em 10em;
+  }
 
-    .spacer {
-        flex: 1 1 auto;
-    }
-    
-    .mat-mdc-outlined-button:not(:disabled) {
-        border-color: var(--white);
-    }
+  .spacer {
+    flex: 1 1 auto;
+  }
 
-    button {
-        margin: 0 .8em;
-        padding: 1.5em;
-        font-size: .8em;
-    }
+  .mat-mdc-outlined-button:not(:disabled) {
+    border-color: var(--white);
+  }
+
+  button {
+    margin: 0 1em;
+    padding: 1em auto;
+  }
 }
-
-
-
-

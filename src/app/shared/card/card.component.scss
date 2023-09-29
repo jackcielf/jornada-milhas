@@ -1,15 +1,15 @@
 .card {
-    padding: 1.2px;
+  padding: 24px;
 
-    /* Esse estilo é adicionado a elementos que possuem 
+  /* Esse estilo é adicionado a elementos que possuem 
     tanto a classe 'card' quanto a classe 'primary' */
-    &.primary {
-        background: var(--light1);
-        border: 1px solid var(--darklight);
-        border-radius: 12px;
-    }
+  &.primary {
+    background: var(--light1);
+    border: 1px solid var(--darklight);
+    border-radius: 15px;
+  }
 
-    &.secundary {
-        background: var(--light2);
-    }
+  &.secundary {
+    background: var(--light2);
+  }
 }
